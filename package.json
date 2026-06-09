@@ -1,0 +1,32 @@
+{
+    "name": "vacode-clnasm",
+    "displayName": "CL_Nasm",
+    "version": "0.0.1",
+    "description": "NASM语法高亮",
+    "engines": {
+        "vscode": "^1.120.0"
+    },
+    "dependencies": {
+        "@types/vscode": "^1.120.0",
+        "typescript": "^6.0.3"
+    },
+    "main": "./out/extension.js",
+
+    "contributes": {
+        "commands": [
+            {
+                "command": "HelloWorld",
+                "title": "Hello"
+            }
+        ]
+    },
+
+    "scripts": {
+        "watch": "tsc -watch -p ./"
+    },
+
+    "devDependencies": {
+        "@types/vscode": "^1.120.0",
+        "typescript": "^6.0.3"
+    }
+}
